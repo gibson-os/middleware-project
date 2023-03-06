@@ -1,0 +1,4 @@
+.gibsonStore
+vendor/
+.docker/mysql/
+.docker/elasticsearch/

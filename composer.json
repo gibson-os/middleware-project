@@ -1,0 +1,17 @@
+{
+  "name": "gibson-os/middleware-project",
+  "require": {
+    "php": " ^8.1",
+    "ext-mbstring": "*",
+    "gibson-os/middleware": "^0.1.1"
+  },
+  "scripts": {
+    "docker:up": "docker-compose -f .docker/docker-compose.yaml up -d",
+    "docker:build": "docker-compose -f .docker/docker-compose.yaml build"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true
+    }
+  }
+}
