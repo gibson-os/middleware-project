@@ -2,12 +2,9 @@
 
 use GibsonOS\Core\Exception\RequestError;
 use GibsonOS\Core\Exception\UserError;
-use GibsonOS\Core\Model\User\Permission;
 use GibsonOS\Core\Service\ControllerService;
-use GibsonOS\Core\Service\PermissionService;
 use GibsonOS\Core\Service\RequestService;
-use GibsonOS\Core\Service\SessionService;
-use GibsonOS\Core\Service\UserService;
+use GibsonOS\Module\Middleware\Service\InstanceService;
 
 require __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
@@ -57,11 +54,11 @@ $_SERVER['QUERY_STRING'] = implode('/', $params);
 $_GET = array_merge($_GET, $get);
 $_REQUEST = array_merge($_GET, $_POST);
 
-$userService = $serviceManager->get(UserService::class);
+$instanceService = $serviceManager->get(InstanceService::class);
 $requestService = $serviceManager->get(RequestService::class);
 
 try {
-    $userDevice = $userService->deviceLogin($requestService->getHeader('X-Device-Token'));
+    $instanceService->tokenLogin($this->requestService->getHeader('X-GibsonOs-Token'));
 } catch (UserError|RequestError $e) {
     // Login error
 }
