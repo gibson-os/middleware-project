@@ -58,7 +58,7 @@ $instanceService = $serviceManager->get(InstanceService::class);
 $requestService = $serviceManager->get(RequestService::class);
 
 try {
-    $instanceService->tokenLogin($this->requestService->getHeader('X-GibsonOs-Token'));
+    $instanceService->tokenLogin($requestService->getHeader('X-GibsonOs-Token'));
 } catch (UserError|RequestError $e) {
     // Login error
 }
