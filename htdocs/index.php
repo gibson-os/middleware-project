@@ -10,7 +10,6 @@ require __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'bootstrap.
 
 $serviceManager = initServiceManager();
 
-
 // Module, Task, Action ermitteln und Parameter trennen
 $params = [];
 $baseDir = preg_replace('|^(.*/).+?$|', '$1', $_SERVER['SCRIPT_NAME']);

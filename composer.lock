@@ -71,16 +71,16 @@
         },
         {
             "name": "gibson-os/core",
-            "version": "1.3.13",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gibson-os/core.git",
-                "reference": "f7e22ee2974378e8d0b5d029a4ca69453e19e007"
+                "reference": "f2ecf8a279ac8ddacb1643d90c0e3b0859da21b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gibson-os/core/zipball/f7e22ee2974378e8d0b5d029a4ca69453e19e007",
-                "reference": "f7e22ee2974378e8d0b5d029a4ca69453e19e007",
+                "url": "https://api.github.com/repos/gibson-os/core/zipball/f2ecf8a279ac8ddacb1643d90c0e3b0859da21b1",
+                "reference": "f2ecf8a279ac8ddacb1643d90c0e3b0859da21b1",
                 "shasum": ""
             },
             "require": {
@@ -117,15 +117,16 @@
                 "psr-4": {
                     "GibsonOS\\Core\\": "src/",
                     "GibsonOS\\Mock\\": "tests/mock/",
-                    "GibsonOS\\UnitTest\\": "tests/unit/"
+                    "GibsonOS\\Test\\Unit\\Core\\": "tests/unit/",
+                    "GibsonOS\\Test\\Functional\\Core\\": "tests/functional/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/gibson-os/core/issues",
-                "source": "https://github.com/gibson-os/core/tree/1.3.13"
+                "source": "https://github.com/gibson-os/core/tree/v1.4.4"
             },
-            "time": "2023-03-14T20:49:40+00:00"
+            "time": "2023-03-26T14:51:56+00:00"
         },
         {
             "name": "gibson-os/mdo",
@@ -171,16 +172,16 @@
         },
         {
             "name": "gibson-os/middleware",
-            "version": "v1.0.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gibson-os/middleware.git",
-                "reference": "cb2c518718a932ed9102dced643bd7f46f557a63"
+                "reference": "0cffd986c0516cb84e4a96f2e3127a34efbacb62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gibson-os/middleware/zipball/cb2c518718a932ed9102dced643bd7f46f557a63",
-                "reference": "cb2c518718a932ed9102dced643bd7f46f557a63",
+                "url": "https://api.github.com/repos/gibson-os/middleware/zipball/0cffd986c0516cb84e4a96f2e3127a34efbacb62",
+                "reference": "0cffd986c0516cb84e4a96f2e3127a34efbacb62",
                 "shasum": ""
             },
             "require": {
@@ -204,15 +205,16 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "GibsonOS\\Module\\Middleware\\": "src/"
+                    "GibsonOS\\Module\\Middleware\\": "src/",
+                    "GibsonOS\\Test\\Module\\Middleware\\Unit\\": "tests/unit/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/gibson-os/middleware/issues",
-                "source": "https://github.com/gibson-os/middleware/tree/v1.0.1"
+                "source": "https://github.com/gibson-os/middleware/tree/v1.1.2"
             },
-            "time": "2023-03-14T21:42:49+00:00"
+            "time": "2023-03-26T15:08:59+00:00"
         },
         {
             "name": "google/auth",
@@ -908,16 +910,16 @@
         },
         {
             "name": "smalot/pdfparser",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smalot/pdfparser.git",
-                "reference": "70433d171a86dc881fc8c68fd6af4d60acb8313e"
+                "reference": "43a1c145b91d83f6b9c6fb4e5c2e6b274d2a0a17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smalot/pdfparser/zipball/70433d171a86dc881fc8c68fd6af4d60acb8313e",
-                "reference": "70433d171a86dc881fc8c68fd6af4d60acb8313e",
+                "url": "https://api.github.com/repos/smalot/pdfparser/zipball/43a1c145b91d83f6b9c6fb4e5c2e6b274d2a0a17",
+                "reference": "43a1c145b91d83f6b9c6fb4e5c2e6b274d2a0a17",
                 "shasum": ""
             },
             "require": {
@@ -953,9 +955,9 @@
             ],
             "support": {
                 "issues": "https://github.com/smalot/pdfparser/issues",
-                "source": "https://github.com/smalot/pdfparser/tree/v2.3.0"
+                "source": "https://github.com/smalot/pdfparser/tree/v2.4.0"
             },
-            "time": "2022-12-21T16:52:55+00:00"
+            "time": "2023-03-14T08:13:58+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
