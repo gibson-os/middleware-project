@@ -1366,9 +1366,9 @@ Ext.define('GibsonOS.data.proxy.Ajax', {
     },
     actionMethods: {
         create: 'POST',
-        read: 'POST',
+        read: 'GET',
         update: 'POST',
-        destroy: 'POST'
+        destroy: 'DELETE'
     }
 });
 
