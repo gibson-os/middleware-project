@@ -1,9 +1,9 @@
 {
   "name": "gibson-os/middleware-project",
   "require": {
-    "php": " ^8.1",
+    "php": " ^8.2",
     "ext-mbstring": "*",
-    "gibson-os/middleware": "^1.0"
+    "gibson-os/middleware": "^2.0"
   },
   "scripts": {
     "docker:up": "docker-compose -f .docker/docker-compose.yaml up -d",

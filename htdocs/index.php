@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 use GibsonOS\Core\Exception\RequestError;
 use GibsonOS\Core\Exception\UserError;
