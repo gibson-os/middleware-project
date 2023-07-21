@@ -3,7 +3,7 @@
   "require": {
     "php": " ^8.2",
     "ext-mbstring": "*",
-    "gibson-os/middleware": "^2.0"
+    "gibson-os/middleware": "^3.0"
   },
   "scripts": {
     "docker:up": "docker-compose -f .docker/docker-compose.yaml up -d",

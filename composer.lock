@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72b248751f6dff5fa44eee61566921a1",
+    "content-hash": "c2734ad09b8db6d2dc023e42367508c4",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -71,16 +71,16 @@
         },
         {
             "name": "gibson-os/core",
-            "version": "v2.8.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gibson-os/core.git",
-                "reference": "6e9a0c966b93e4cef8de21d8887acfce6224f380"
+                "reference": "f4dbb485dfcefe84ea23b598ed56f0b25029113c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gibson-os/core/zipball/6e9a0c966b93e4cef8de21d8887acfce6224f380",
-                "reference": "6e9a0c966b93e4cef8de21d8887acfce6224f380",
+                "url": "https://api.github.com/repos/gibson-os/core/zipball/f4dbb485dfcefe84ea23b598ed56f0b25029113c",
+                "reference": "f4dbb485dfcefe84ea23b598ed56f0b25029113c",
                 "shasum": ""
             },
             "require": {
@@ -129,9 +129,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/gibson-os/core/issues",
-                "source": "https://github.com/gibson-os/core/tree/v2.8.0"
+                "source": "https://github.com/gibson-os/core/tree/v3.0.0"
             },
-            "time": "2023-07-20T21:31:07+00:00"
+            "time": "2023-07-21T11:28:45+00:00"
         },
         {
             "name": "gibson-os/mdo",
@@ -177,20 +177,20 @@
         },
         {
             "name": "gibson-os/middleware",
-            "version": "v2.3.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gibson-os/middleware.git",
-                "reference": "b2f6e489973c811b89641210027f9518fc518bad"
+                "reference": "6de0820979fb63bf87e85c1ccd93df94ef8ccf4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gibson-os/middleware/zipball/b2f6e489973c811b89641210027f9518fc518bad",
-                "reference": "b2f6e489973c811b89641210027f9518fc518bad",
+                "url": "https://api.github.com/repos/gibson-os/middleware/zipball/6de0820979fb63bf87e85c1ccd93df94ef8ccf4c",
+                "reference": "6de0820979fb63bf87e85c1ccd93df94ef8ccf4c",
                 "shasum": ""
             },
             "require": {
-                "gibson-os/core": "^2.0.0",
+                "gibson-os/core": "^3.0.0",
                 "google/auth": "^1.18",
                 "php": " ^8.2"
             },
@@ -218,9 +218,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/gibson-os/middleware/issues",
-                "source": "https://github.com/gibson-os/middleware/tree/v2.3.0"
+                "source": "https://github.com/gibson-os/middleware/tree/v3.0.0"
             },
-            "time": "2023-07-17T20:27:12+00:00"
+            "time": "2023-07-21T12:07:54+00:00"
         },
         {
             "name": "google/auth",

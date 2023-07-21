@@ -11,12 +11,15 @@ require __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'bootstrap.
 
 try {
     $serviceManager = initServiceManager();
-    $commandService = $serviceManager->get(CommandService::class);
+    $commandService = $serviceManager->get(CommandService::class)
+        ->setArguments($argv)
+        ->setOptions($argv)
+    ;
 
     return $commandService->execute(
         $commandService->getCommandClassname($argv),
-        $commandService->getArguments($argv),
-        $commandService->getOptions($argv)
+        $commandService->getArguments(),
+        $commandService->getOptions(),
     );
 } catch (Throwable $e) {
     $lines = [get_class($e) . ': ' . $e->getMessage()];
