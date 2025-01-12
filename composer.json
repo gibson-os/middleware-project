@@ -1,9 +1,9 @@
 {
   "name": "gibson-os/middleware-project",
   "require": {
-    "php": " ^8.2",
+    "php": " ^8.4",
     "ext-mbstring": "*",
-    "gibson-os/middleware": "^4.0"
+    "gibson-os/middleware": "^5.0"
   },
   "scripts": {
     "docker:up": "docker-compose -f .docker/docker-compose.yaml up -d",
@@ -12,7 +12,8 @@
   "config": {
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
-      "php-http/discovery": true
+      "php-http/discovery": true,
+      "tbachert/spi": true
     }
   }
 }
